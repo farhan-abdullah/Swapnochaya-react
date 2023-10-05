@@ -1,11 +1,12 @@
 import React from "react";
-import Carousel from "../Carousel/Carousel";
+// import Carousel from "../Carosel/Carosel";
 import Featured from "../Featured/Featured";
+import Carosel from "../Carosel/Carosel";
 
 const Home = () => {
    return (
       <div>
-         <Carousel></Carousel>
+         <Carosel></Carosel>
          <Featured></Featured>
       </div>
    );
