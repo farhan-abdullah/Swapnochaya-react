@@ -1,5 +1,5 @@
 import React from "react";
-
+import gImage1 from "../../assets/banner (1).jpg";
 const Events = () => {
    return (
       <>
@@ -150,7 +150,18 @@ const Events = () => {
                   </div>
                </div>
             </div>
-            <div className="bg-primary"></div>
+            <div className="bg-primary">
+               <div className="gallery-container">
+                  <div>
+                     <img src={gImage1} alt="" />
+                  </div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+            </div>
          </div>
       </>
    );
