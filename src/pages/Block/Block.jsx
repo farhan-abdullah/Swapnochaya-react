@@ -29,7 +29,7 @@ const Block = () => {
    ];
 
    return (
-      <div className="w-[90%] md:max-w-[85%] mx-auto">
+      <div className="w-[90%] flex justify-center items-center flex-col md:max-w-[85%] mx-auto">
          <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 my-10 md:my-[100px]">
             <div>
                <h2 className="max-w-[450px] text-center md:text-start text-black/75 font-semibold text-[36px]">
@@ -50,7 +50,7 @@ const Block = () => {
          {/* black card start from here */}
 
          <div>
-            <div className="grid grid-cols-1  md:gap-y-0 gap-x-7  md:grid-cols-4 2xl:grid-cols-5 ">
+            <div className="grid  grid-cols-1  md:gap-y-0 gap-x-7  md:grid-cols-4 2xl:grid-cols-5 ">
                {cards.map((item, index) => (
                   <div
                      key={index}
