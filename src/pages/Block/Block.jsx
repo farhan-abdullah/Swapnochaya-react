@@ -50,11 +50,11 @@ const Block = () => {
          {/* black card start from here */}
 
          <div>
-            <div className="grid grid-cols-1 gap-y-3 md:gap-y-0 gap-x-7  md:grid-cols-4 2xl:grid-cols-5 ">
+            <div className="grid grid-cols-1  md:gap-y-0 gap-x-7  md:grid-cols-4 2xl:grid-cols-5 ">
                {cards.map((item, index) => (
                   <div
                      key={index}
-                     className="card md:w-[260px] bg-white shadow-md shadow-gray-800/40 h-[365px]">
+                     className="card my-4 md:my-0 md:w-[260px] bg-white shadow-md shadow-gray-800/40 h-[365px]">
                      <img
                         className="md:w-[265px] w-full h-[176px] bg-cover"
                         src={item.donatedImage}

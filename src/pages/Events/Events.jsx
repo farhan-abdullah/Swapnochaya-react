@@ -1,6 +1,17 @@
 import React from "react";
-import gImage1 from "../../assets/banner (1).jpg";
+// import gImage1 from "../../assets/";
 const Events = () => {
+   const gallery = [
+      { image: "https://i.ibb.co/TYvWsby/gallery6.jpg" },
+      { image: "https://i.ibb.co/WV1m6PV/gallery4.jpg" },
+      { image: "https://i.ibb.co/CM4j7nd/gallery3.jpg" },
+      { image: "https://i.ibb.co/XzZRPg0/gallery1.jpg" },
+      {
+         image: "https://i.ibb.co/6m1qNbq/event1.jpg",
+      },
+      { image: "https://i.ibb.co/CM4j7nd/gallery3.jpg" },
+   ];
+
    return (
       <>
          {/* // completed task */}
@@ -34,12 +45,12 @@ const Events = () => {
          </div>
          {/* // upcoming events */}
          <div className="grid md:grid-cols-2  ">
-            <div className="bg-white pl-[60px]">
+            <div className="bg-white px-3 pt-4 md:pt-0 md:pl-[60px]">
                <div className="md:mb-[40px]">
-                  <h2 className="text-[36px] font-semibold pb-2">
+                  <h2 className="text-[38px] md:text-[36px]  text-start py-4 font-semibold md:pb-0 pb-2 ">
                      Upcoming events
                   </h2>
-                  <div className="w-[80px] h-[2px] bg-primary"></div>
+                  <div className="w-[60px] h-[2px]  bg-primary"></div>
                </div>
                {/* end the title */}
 
@@ -152,14 +163,19 @@ const Events = () => {
             </div>
             <div className="bg-primary">
                <div className="gallery-container">
-                  <div>
-                     <img src={gImage1} alt="" />
+                  <div className="grid grid-cols-2 place-items-center max-w-[560px] px-3 mx-auto place-content-start gap-0 py-3  md:py-[80px]">
+                     {gallery.map((glr, index) => (
+                        <>
+                           <div key={index} className="">
+                              <img
+                                 className=" bg-cover"
+                                 src={glr.image}
+                                 alt=""
+                              />
+                           </div>
+                        </>
+                     ))}
                   </div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
                </div>
             </div>
          </div>
