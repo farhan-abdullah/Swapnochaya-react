@@ -29,7 +29,7 @@ const Block = () => {
    ];
 
    return (
-      <div className="max-w-[85%] mx-auto">
+      <div className="w-[90%] md:max-w-[85%] mx-auto">
          <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 my-10 md:my-[100px]">
             <div>
                <h2 className="max-w-[450px] text-center md:text-start text-black/75 font-semibold text-[36px]">
@@ -50,18 +50,18 @@ const Block = () => {
          {/* black card start from here */}
 
          <div>
-            <div className="grid grid-cols-2 gap-x-7  md:grid-cols-4 ">
+            <div className="grid grid-cols-1 gap-y-3 md:gap-y-0 gap-x-7  md:grid-cols-4 ">
                {cards.map((item, index) => (
                   <div
                      key={index}
-                     className="card w-[260px] bg-white shadow-xl shadow-gray-800/40 h-[365px]">
+                     className="card md:w-[260px] bg-white shadow-xl shadow-gray-800/40 h-[365px]">
                      <img
-                        className="w-[265px] h-[176px] bg-cover"
+                        className="md:w-[265px] w-full h-[176px] bg-cover"
                         src={item.donatedImage}
                         alt={item.donatedTitle}
                      />
                      <div className="p-[40px]">
-                        <h2 className="text-[16px] font-semibold text-center leading-[24px] uppercase text-[#333]">
+                        <h2 className="text-[16px] font-semibold md:text-center leading-[24px] uppercase text-[#333]">
                            {item.donatedTitle}
                         </h2>
                         <p>Total Donated: {item.TotalDonated}</p>
