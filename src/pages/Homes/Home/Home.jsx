@@ -3,6 +3,7 @@ import React from "react";
 import Featured from "../Featured/Featured";
 import Carosel from "../Carosel/Carosel";
 import Block from "../../Block/Block";
+import Events from "../../Events/Events";
 
 const Home = () => {
    return (
@@ -10,6 +11,7 @@ const Home = () => {
          <Carosel></Carosel>
          <Featured></Featured>
          <Block></Block>
+         <Events></Events>
       </div>
    );
 };
