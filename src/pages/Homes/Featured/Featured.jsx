@@ -23,3 +23,5 @@ const Featured = () => {
 };
 
 export default Featured;
+
+// hyper text markup language
