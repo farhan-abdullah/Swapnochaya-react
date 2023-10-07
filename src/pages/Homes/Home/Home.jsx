@@ -5,6 +5,7 @@ import Carosel from "../Carosel/Carosel";
 import Block from "../../Block/Block";
 import Events from "../../Events/Events";
 import Devasted from "../../Devasted/Devasted";
+import Success from "../../Success/Success";
 
 const Home = () => {
    return (
@@ -14,6 +15,7 @@ const Home = () => {
          <Block></Block>
          <Events></Events>
          <Devasted></Devasted>
+         <Success></Success>
       </div>
    );
 };

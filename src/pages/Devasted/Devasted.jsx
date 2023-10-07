@@ -3,7 +3,7 @@ import { Parallax } from "react-parallax";
 
 const Devasted = () => {
    return (
-      <div className="w-full md:h-[100vh]">
+      <div className="w-full h-full">
          <Parallax
             blur={2}
             className="w-full h-full py-10 md:py-0 md:h-[80vh] md:relative"
