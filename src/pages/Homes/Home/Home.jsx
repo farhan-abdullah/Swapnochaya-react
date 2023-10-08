@@ -8,10 +8,12 @@ import Devasted from "../../Devasted/Devasted";
 import Success from "../../Success/Success";
 import Blogs from "../../Blogs/Blogs";
 import Footer from "../../../shared/Footer/Footer";
+import Header from "../../../shared/Header/Header";
 
 const Home = () => {
    return (
       <div>
+         <Header></Header>
          <Carosel></Carosel>
          <Featured></Featured>
          <Block></Block>
