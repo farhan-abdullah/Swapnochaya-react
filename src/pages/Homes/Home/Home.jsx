@@ -6,6 +6,7 @@ import Block from "../../Block/Block";
 import Events from "../../Events/Events";
 import Devasted from "../../Devasted/Devasted";
 import Success from "../../Success/Success";
+import Blogs from "../../Blogs/Blogs";
 
 const Home = () => {
    return (
@@ -16,6 +17,7 @@ const Home = () => {
          <Events></Events>
          <Devasted></Devasted>
          <Success></Success>
+         <Blogs></Blogs>
       </div>
    );
 };

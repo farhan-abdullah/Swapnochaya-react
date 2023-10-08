@@ -47,15 +47,15 @@ const Success = () => {
                      ) => (
                         <SwiperSlide key={index}>
                            <div className="grid grid-cols-1 md:grid-cols-2">
-                              <div className="w-full md:h-[340px] bg-cover">
+                              <div className="w-full md:h-[340px] 2xl:h-auto bg-cover">
                                  <img
-                                    className="w-[100%]"
+                                    className="w-[100%] bg-cover"
                                     src={scs.sImage}
                                     alt=""
                                  />
                               </div>
-                              <div className="px-[30px] py-[60px] w-full bg-[#f7f7f6] ">
-                                 <h2 className="text-[24px] mb-[15px]">
+                              <div className="px-[30px] 2xl:px-[50px] py-[60px] 2xl:py-[80px] w-full bg-[#f7f7f6] ">
+                                 <h2 className="text-[24px] 2xl:text-[30px] mb-[15px]">
                                     {scs.sTitle}
                                  </h2>{" "}
                                  <p className="text-[15px] text-[#898989] mb-[15px] max-w-[520px] ">
