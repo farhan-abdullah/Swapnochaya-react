@@ -32,7 +32,7 @@ const Header = () => {
                   alt=""
                />
             </div>
-            <div className="uppercase text-gray-200 text-[14px] md:space-x-4 flex justify-between flex-col space-y-3 md:space-y-0 items-center md:flex-row">
+            <div className="uppercase text-black text-[14px] md:space-x-4 flex justify-between flex-col space-y-3 md:space-y-0 items-center md:flex-row">
                <span className="cursor-pointer font-semibold hover:text-secondary duration-700 delay-100">
                   About
                </span>
