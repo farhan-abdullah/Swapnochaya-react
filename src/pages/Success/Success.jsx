@@ -6,6 +6,7 @@ import { Navigation, Pagination, A11y, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { Parallax } from "react-parallax";
 
 const success = [
    {
@@ -115,6 +116,22 @@ const Success = () => {
                   </div>
                </div>
             </div>
+         </div>
+         {/* swiper sponser section end */}
+         <div className="w-full h-full">
+            <Parallax
+               blur={2}
+               className="w-full h-full py-10 md:py-0 md:h-[50vh] md:relative"
+               bgImage="https://demo1.imithemes.com/html/born-to-give/images/parallax6.jpg"
+               bgImageAlt="the cat"
+               strength={500}>
+               <div className="flex justify-center items-center md:h-[60vh]">
+                  <h2 className="text-[30px] px-4 md:text-[36px] w-full text-center text-white">
+                     Making someone smile is the most <br /> beautiful thing in
+                     this world
+                  </h2>
+               </div>
+            </Parallax>
          </div>
       </div>
    );
