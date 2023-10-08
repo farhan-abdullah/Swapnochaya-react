@@ -50,7 +50,7 @@ const Block = () => {
          {/* black card start from here */}
 
          <div>
-            <div className="grid  grid-cols-1  md:gap-y-0 gap-x-7  md:grid-cols-4 2xl:grid-cols-5 ">
+            <div className="grid  grid-cols-1  md:gap-y-0 gap-x-7  md:grid-cols-4  ">
                {cards.map((item, index) => (
                   <div
                      key={index}

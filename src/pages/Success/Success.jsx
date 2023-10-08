@@ -75,7 +75,7 @@ const Success = () => {
 
          {/* sponser section */}
          <div className="bg-[#fff]">
-            <div className=" w-[100%] md:w-[80%] py-10 px-5 md:px-0 mx-auto  flex items-center  flex-col md:flex-row   md:items-center">
+            <div className=" w-[100%] md:w-[85%]   2xl:w-[70%]  py-10 px-5 md:px-0 mx-auto   flex justify-between items-center  flex-col md:flex-row ">
                <div className="md:max-w-[300px] md:text-start text-center">
                   <h3 className="text-[18px] font-semibold text-[#333333]">
                      Our Most Trusted <br /> Supporting partners
@@ -83,33 +83,39 @@ const Success = () => {
                </div>
                <div className="">
                   <div className="grid grid-cols-2 gap-y-3 pt-3 place-content-center place-items-center md:grid-cols-6">
+                     <div className="w-full">
+                        <img
+                           className=" w-full h-[65px] bg-cover"
+                           src="https://demo1.imithemes.com/html/born-to-give/images/logo6.png"
+                           alt=""
+                        />
+                     </div>
+                     <div className="w-full">
+                        <img
+                           className=" w-full h-[65px] bg-cover"
+                           src="https://demo1.imithemes.com/html/born-to-give/images/logo2.png"
+                           alt=""
+                        />
+                     </div>
+                     <div className="w-full">
+                        <img
+                           className=" w-full h-[65px] bg-cover"
+                           src="https://demo1.imithemes.com/html/born-to-give/images/logo4.png"
+                           alt=""
+                        />
+                     </div>
                      <img
-                        className="w-[150px] h-[65px] bg-cover"
-                        src="https://demo1.imithemes.com/html/born-to-give/images/logo6.png"
-                        alt=""
-                     />
-                     <img
-                        className="md:w-[150px] h-[65px] bg-cover"
-                        src="https://demo1.imithemes.com/html/born-to-give/images/logo2.png"
-                        alt=""
-                     />
-                     <img
-                        className="md:w-[150px] h-[65px] bg-cover"
-                        src="https://demo1.imithemes.com/html/born-to-give/images/logo4.png"
-                        alt=""
-                     />
-                     <img
-                        className="md:w-[150px] h-[65px] bg-cover"
+                        className=" w-full h-[65px] bg-cover"
                         src="https://demo1.imithemes.com/html/born-to-give/images/logo1.png"
                         alt=""
                      />
                      <img
-                        className="md:w-[150px] h-[65px] bg-cover"
+                        className=" w-full h-[65px] bg-cover"
                         src="https://demo1.imithemes.com/html/born-to-give/images/logo5.png"
                         alt=""
                      />
                      <img
-                        className="md:w-[150px] h-[65px] bg-cover"
+                        className=" w-full h-[65px] bg-cover"
                         src="https://demo1.imithemes.com/html/born-to-give/images/logo6.png"
                         alt=""
                      />
