@@ -7,6 +7,7 @@ import Events from "../../Events/Events";
 import Devasted from "../../Devasted/Devasted";
 import Success from "../../Success/Success";
 import Blogs from "../../Blogs/Blogs";
+import Footer from "../../../shared/Footer/Footer";
 
 const Home = () => {
    return (
@@ -18,6 +19,7 @@ const Home = () => {
          <Devasted></Devasted>
          <Success></Success>
          <Blogs></Blogs>
+         <Footer></Footer>
       </div>
    );
 };
