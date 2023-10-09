@@ -41,12 +41,12 @@ const Header = () => {
 				</div>
 			</div>
 			<nav
-				className={`md:flex md:w-[100%] mx-auto md:justify-between z-40 md:h-[70px] absolute md:fixed md:p-6 md:px-20 left-0 right-0 duration-700 md:items-center ${
+				className={`md:flex md:w-[100%] mx-auto md:justify-between z-40 md:h-[70px] absolute md:fixed md:p-10 md:px-20 left-0 right-0 duration-700 md:items-center ${
 					isOpen ? 'pt-10 pb-3 md:p-0 bg-white' : '-mt-80 md:mt-0'
 				} ${isScrolled ? 'bg-white' : ''}`}>
 				<div className='flex items-center gap-3'>
 					<img className='w-[70px] hidden md:block' src={logo} alt='' />
-					<h1 className='font-semibold hidden md:block text-2xl'>Swapnochaya</h1>
+					<h1 className='font-semibold hidden md:block text-2xl mt-2'>Swapnochaya</h1>
 				</div>
 				<div className='uppercase text-black text-[14px] md:space-x-4 flex justify-between flex-col space-y-3 md:space-y-0 items-center md:flex-row'>
 					<span className='cursor-pointer font-semibold hover:text-secondary duration-700 delay-100'>
