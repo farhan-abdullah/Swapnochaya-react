@@ -63,13 +63,10 @@ const Blogs = () => {
                <Swiper
                   modules={[Pagination]}
                   spaceBetween={30}
-                  slidesPerView={2} // Default slides per view for larger screens
+                  slidesPerView={1} // Default slides per view for larger screens
                   pagination={{ clickable: true }}
                   onSwiper={(swiper) => console.log(swiper)}
-                  breakpointsBase={{
-                     590: {
-                        slidesPerView: 1,
-                     },
+                  Breakpoint={{
                      768: {
                         slidesPerView: 1,
                      },
