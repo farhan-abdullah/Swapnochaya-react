@@ -30,25 +30,61 @@ const Carosel = () => {
             className="mySwiper">
             <div className="">
                <SwiperSlide>
-                  <img
-                     className="w-[100%] h-[50%]  md:h-[100%] bg-cover"
-                     src={img1}
-                     alt=""
-                  />
+                  <div className="relative">
+                     <img
+                        className="w-[100%] h-[50%]  md:h-[100%] bg-cover"
+                        src={img1}
+                        alt=""
+                     />
+                     <div className="absolute top-0 left-0 bottom-0 bg-black/40 flex justify-center items-center flex-col text-center right-0 z-20">
+                        <h2 className="text-[50px] text-white font-bold mb-2 leading-none">
+                           Make a difference for people
+                           <br />
+                           who needs it the most
+                        </h2>
+                        <button className="bg-blue-500 uppercase mt-4 px-6 py-2 border-none text-[#fff]">
+                           Start with a little
+                        </button>
+                     </div>
+                  </div>
                </SwiperSlide>
                <SwiperSlide>
-                  <img
-                     className="w-[100%] h-[50%] md:h-[100%] bg-cover"
-                     src={img2}
-                     alt=""
-                  />
+                  <div className="relative">
+                     <img
+                        className="w-[100%] h-[50%] md:h-[100%] bg-cover"
+                        src={img2}
+                        alt=""
+                     />
+                     <div className="absolute top-0 left-0 bottom-0 bg-black/40 flex justify-center items-center flex-col text-center right-0 z-20">
+                        <h2 className="text-[50px] text-white font-bold mb-2 leading-none">
+                           Make a difference for people
+                           <br />
+                           who needs it the most
+                        </h2>
+                        <button className="bg-blue-500 uppercase mt-4 px-6 py-2 border-none text-[#fff]">
+                           Start with a little
+                        </button>
+                     </div>
+                  </div>
                </SwiperSlide>
                <SwiperSlide>
-                  <img
-                     className="w-[100%] h-[50%] md:h-[100%] bg-cover"
-                     src={img3}
-                     alt=""
-                  />
+                  <div className="relative">
+                     <img
+                        className="w-[100%] h-[50%] md:h-[100%] bg-cover"
+                        src={img3}
+                        alt=""
+                     />
+                     <div className="absolute top-0 left-0 bottom-0 bg-black/40 flex justify-center items-center flex-col text-center right-0 z-20">
+                        <h2 className="text-[50px] text-white font-bold mb-2 leading-none">
+                           Make a difference for people
+                           <br />
+                           who needs it the most
+                        </h2>
+                        <button className="bg-blue-500 uppercase mt-4 px-6 py-2 border-none text-[#fff]">
+                           Start with a little
+                        </button>
+                     </div>
+                  </div>
                </SwiperSlide>
             </div>
             {/* <SwiperSlide>
