@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../../assets/logo.png";
+
 const Header = () => {
    const [isOpen, setIsOpen] = useState(false);
    const [isScrolled, setIsScrolled] = useState(false);
@@ -27,9 +28,7 @@ const Header = () => {
    return (
       <>
          <div
-            className={`cursor-pointer md:hidden flex items-center justify-between p-5 ${
-               isScrolled ? "bg-white" : ""
-            }`}
+            className={`cursor-pointer md:hidden flex items-center justify-between p-5`}
             onClick={() => setIsOpen(!isOpen)}>
             <img
                className="w-[140px]"
@@ -45,9 +44,10 @@ const Header = () => {
             </div>
          </div>
          <nav
-            className={`md:flex md:w-[100%]  mx-auto md:justify-between z-40 md:h-[70px] absolute md:fixed md:p-10 md:px-20 left-0 right-0 duration-700 md:items-center ${
+            className={`md:flex md:w-[100%] mx-auto md:justify-between z-40 md:h-[70px] absolute md:fixed md:p-10 md:px-20 left-0 right-0 duration-700 md:items-center ${
                isOpen ? "pt-10 pb-3 md:p-0" : "-mt-80 md:mt-0"
-            } ${isScrolled ? "bg-white" : "bg-transparent"}`}>
+            } ${isScrolled || isOpen ? "bg-white" : "bg-transparent"}`} // Transparent or white background based on scrolling and mobile menu
+         >
             <div className="flex items-center gap-3">
                <img className="w-[70px] hidden md:block" src={logo} alt="" />
                <h1 className="font-semibold hidden md:block text-2xl mt-2">
